@@ -1,10 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="Cola.fs" />
     <Compile Include="Pila.fs" />
@@ -13,11 +11,12 @@
     <Compile Include="BFS.fs" />
     <Compile Include="DFS.fs" />
     <Compile Include="DFSL.fs" />
-    <Compile Include="CostoUniforme.fs" />
     <Compile Include="IDFS.fs" />
+    <Compile Include="CostoUniforme.fs" />
+    <Compile Include="Greedy.fs" />
+    <Compile Include="Astar.fs" />
     <Compile Include="Aspiradora.fs" />
     <Compile Include="Puzzle.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
 </Project>

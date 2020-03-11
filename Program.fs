@@ -26,11 +26,11 @@ let main argv =
     //let res = Aspiradora.prueba BFS.estrategia
     //printfn "Resultado %A" res
     
-    (*match Aspiradora.prueba BFS.estrategia with
+    match Aspiradora.prueba BFS.estrategia with
         | Some n -> printfn "Resultado %A" (Capitulo3.acciones n)
-        | None -> printfn "No op"*)
+        | None -> printfn "No op"
 
-    match Puzzle.prueba BFS.estrategia with
+    match Puzzle.prueba DFS.estrategia with
         | Some n -> printfn "Resultado %A" (Capitulo3.acciones n)
         | None -> printfn "No op"
 
